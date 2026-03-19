@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #0052FF;
+  --blue-glow: rgba(0, 82, 255, 0.3);
+  --dark: #050A18;
+  --card: #0C1428;
+  --border: rgba(0, 82, 255, 0.2);
+  --muted: #6B7EAA;
+  --success: #00E5A0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--dark);
+  color: #E8EEFF;
+  font-family: 'Syne', sans-serif;
+  min-height: 100vh;
+}
+
+/* Override OnchainKit button to match our theme */
+.ock-connect-wallet {
+  background: var(--blue) !important;
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+}
