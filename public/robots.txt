@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://base-tip-jar-u7d3.vercel.app/sitemap.xml
